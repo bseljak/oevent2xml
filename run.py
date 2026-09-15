@@ -6,14 +6,15 @@ import oevent2xml
 import requests
 
 # connection to FireBird
-CONNECTION_STRING = "localhost:3050/C:\\Users\\Klemen\\AppData\\Roaming\\OEvent\\Data\\Competition11.gdb"
-STAGE = 4
+CONNECTION_STRING = "localhost:3050/C:\\okk\\oocup2026_2.gdb"
+
+STAGE = 1
 WAIT_TIME = 15
 RESULTS_FILE = "results.xml"
 
 # connection to OZS
 # set UPLOAD to False in case you do not want the data to be uploaded to OZS
-UPLOAD = True
+UPLOAD = False
 COMPETITION_ID = 9999
 COMPETITION_SECRET = "0ae283bb8749abc3b3cc3e6bd3049d04"
 UPLOAD_URL = "http://orientacijska-zveza.si/sl/api/live/upload.html"
